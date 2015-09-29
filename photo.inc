@@ -26,6 +26,5 @@ class PhotoMigration extends ExampleNodeMigration {
     if (parent::prepareRow($row) === FALSE) {
       return FALSE;
     }
-    dsm($row);
   }
 }
