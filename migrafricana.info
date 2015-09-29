@@ -1,0 +1,12 @@
+name = "Africana D6 to D7 migration"
+description = "Migrate Africana content from D6 site to D7"
+package = "Migration"
+core = 7.x
+
+dependencies[] = migrate
+dependencies[] = migrate_d2d
+
+files[] = migrafricana.migrate.inc
+files[] = file.inc
+files[] = node.inc
+files[] = photo.inc
