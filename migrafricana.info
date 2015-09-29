@@ -1,4 +1,4 @@
-name = "Africana D6 to D7 migration"
+name = "Africana D6 to D7 migration - migrafricana module"
 description = "Migrate Africana content from D6 site to D7"
 package = "Migration"
 core = 7.x

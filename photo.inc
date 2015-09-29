@@ -13,7 +13,7 @@ class PhotoMigration extends ExampleNodeMigration {
       ->sourceMigration('File');
     $this->addFieldMapping('field_photoimage:file_class')
       ->defaultValue('MigrateFileFid');
-}
+    }
 
   /**
    * Implementation of Migration::prepareRow().
